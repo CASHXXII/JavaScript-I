@@ -47,3 +47,11 @@ console.log(subtract(1,2));
 //   return num * 3;
 // });
 // console.log(triple);
+
+const triple = exampleArray.map(num =>  num * 3);
+
+or 
+
+const triple = exampleArray.map((num) => {
+    return num * 3;
+});
